@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Semana9</string>
+    <string name="title_activity_lista_personas">ListaPersonasActivity</string>
+</resources>

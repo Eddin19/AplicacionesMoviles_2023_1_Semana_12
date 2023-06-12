@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditarPersonasActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="192dp"
+        android:layout_weight="0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="379dp"
+        android:layout_height="79dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="379dp"
+        android:layout_height="79dp"
+        android:hint="Número" />
+
+    <EditText
+        android:id="@+id/editTextImagenURL"
+        android:layout_width="379dp"
+        android:layout_height="79dp"
+        android:hint="URL de la imagen" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnGuardar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Guardar" />-->
+
+</LinearLayout>

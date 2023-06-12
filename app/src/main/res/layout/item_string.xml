@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvNumero"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rotationX="0">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="600dp"
+        android:layout_height="192dp"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/tvContacto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:rotationX="0">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="Comentario" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="299dp"
+        android:layout_height="match_parent">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageViewEstrella"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="130dp"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginStart="28dp"-->
+        <!--            android:layout_marginTop="28dp"-->
+        <!--            android:layout_marginEnd="22dp"-->
+        <!--            android:layout_marginBottom="34dp"-->
+        <!--            android:src="@drawable/estrella"-->
+        <!--            android:visibility="gone" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageViewEstrellao"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="130dp"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginStart="28dp"-->
+        <!--            android:layout_marginTop="28dp"-->
+        <!--            android:layout_marginEnd="22dp"-->
+        <!--            android:layout_marginBottom="34dp"-->
+        <!--            android:src="@drawable/estrellanegrao"-->
+        <!--            android:visibility="gone" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnLlamar"-->
+<!--            android:layout_width="137dp"-->
+<!--            android:layout_height="52dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="139dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:layout_marginEnd="23dp"-->
+<!--            android:layout_marginBottom="133dp"-->
+<!--            android:text="Llamar" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnMensaje"-->
+<!--            android:layout_width="144dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="137dp"-->
+<!--            android:layout_marginTop="71dp"-->
+<!--            android:layout_marginEnd="18dp"-->
+<!--            android:layout_marginBottom="73dp"-->
+<!--            android:text="Mensaje" />-->
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="72dp"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginBottom="41dp"
+            android:text="Agregar Comentario" />
+    </RelativeLayout>
+</LinearLayout>
